@@ -21,7 +21,7 @@
   "scripts": {
     "lint": "eslint lib test",
     "test": "mocha --require test/bootstrap.js --recursive test/unit",
-    "coverage": "istanbul cover _mocha --report lcovonly -- --require test/bootstrap.js --compilers --recursive test/unit",
+    "coverage": "istanbul cover _mocha --report lcovonly -- --require test/bootstrap.js --recursive test/unit",
     "billom": "billom package.json \"$npm_package_name\" > package.html",
     "docs": "docco lib/*.js"
   },
