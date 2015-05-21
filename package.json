@@ -1,6 +1,6 @@
 {
   "name": "sparse-splice",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "remove elements scattered over an array",
   "main": "lib/sparse-splice",
   "repository": {
